@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "497cd2fb-5f68-40a2-8746-5dfb046012e3",
+		"name": "fasfasdf",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.canadacomputers.com/shopping_cart.php?action=bundle_add_to_cart&item0=[item_id]&qty0=1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.canadacomputers.com/product_info.php?cPath=5_1340_1347_1349&item_id=[item_id]"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cookie",
+                                                "value": "[cookie_val]"
+					}
+				],
+				"url": {
+					"raw": "https://www.canadacomputers.com/shopping_cart.php?action=bundle_add_to_cart&item0=123330&qty0=1",
+					"protocol": "https",
+					"host": [
+						"www",
+						"canadacomputers",
+						"com"
+					],
+					"path": [
+						"shopping_cart.php"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "bundle_add_to_cart"
+						},
+						{
+							"key": "item0",
+							"value": "123330"
+						},
+						{
+							"key": "qty0",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
