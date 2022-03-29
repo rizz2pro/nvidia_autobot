@@ -1,4 +1,5 @@
 # CC Autobuy
+- This is a script I wrote in BASH used to find and automatically purchase the item(s) defined in configs/id_list.conf
 
 # Dependencies: 
 - red hat linux(other distro will do but you may have to tinker)
